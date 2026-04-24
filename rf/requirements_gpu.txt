@@ -1,0 +1,26 @@
+# GPU-Optimized AI Detector Requirements
+# Optimized for RTX 4050
+
+# Core ML Libraries
+torch>=2.0.0              # PyTorch with CUDA support
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# XGBoost with GPU
+xgboost>=2.0.0            # Supports both 2.x and 3.x APIs
+
+# Hyperparameter Optimization
+optuna>=3.3.0
+
+# Utilities
+scipy>=1.11.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+joblib>=1.3.0
+
+# Optional: RAPIDS cuML for even faster Random Forest (if you want to try)
+# Uncomment below if you want to install RAPIDS
+# Note: RAPIDS requires specific CUDA versions
+# cuml-cu11>=23.10.0      # For CUDA 11.x
+# cudf-cu11>=23.10.0      # For CUDA 11.x
